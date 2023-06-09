@@ -1,5 +1,5 @@
 BARBER SHOP WEBSITE
-Descrição curta do projeto.
+Projeto realizado pela faculdade, objetivo criação de um site interativo para uma barbearia
 
 Instalação
 
