@@ -1,0 +1,145 @@
+.about-container {
+  box-shadow: #222227 1px 1px 15px 15px;
+  color: #f5f5dc;
+  font-size: 25px;
+  position: relative;
+  width: 100%;
+}
+.coroa-about img {
+  width: 10%;
+}
+#sobre {
+  background-color: dimgrey;
+}
+.description-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.texto-about {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.texto-about p {
+  width: 30%;
+  text-align: justify;
+}
+.texto-about img {
+  width: 30%;
+  height: fit-content;
+  box-shadow: white 1px 1px 20px 1px;
+  border: 3px solid white;
+}
+
+.button-primary3 {
+  color: black;
+  padding: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #f5f5dc;
+}
+
+.button-primary3:hover {
+  background: #f2c300;
+  transition: 1s ease-in-out;
+}
+.container-button-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: wrap;
+  padding-top: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #fff;
+  font-size: 20px;
+}
+.galeria {
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+  width: 30%;
+}
+.galeria > div {
+  background-image: url("../../assets/img/ituano.jpg");
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+  box-shadow: white 1px 1px 10px 1px;
+  border: 1px solid white;
+}
+.galeria > div:hover {
+  flex: 5;
+}
+@media (max-width: 1150px) {
+  .texto-about img {
+    display: none;
+  }
+  .texto-about p {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+  .galeria {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto-about p {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .texto-about img {
+    width: 100%;
+  }
+  .texto-about p {
+    justify-content: center;
+  }
+}

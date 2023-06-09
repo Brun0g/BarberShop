@@ -1,0 +1,164 @@
+.description__main {
+  padding: 0;
+}
+.lista-principal {
+  font-weight: 400;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-self: center;
+}
+.coroa img {
+  width: 100px;
+}
+.preco-color {
+  color: gold;
+}
+.parallax1 {
+  height: 50vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+  background: url("../../assets/img/AAA.png") center / contain fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.parallax-layer1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  background-color: hsla(51, 100%, 50%, 0.09);
+  box-shadow: white 1px 1px 20px 2px;
+  border: 3px solid white;
+  color: #f5f5dc;
+}
+.container__title__precos {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.container__precos {
+  display: flex;
+  justify-content: center;
+  flex-direction: wrap;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 auto;
+  color: #f5f5dc;
+  width: 100%;
+}
+
+.horario {
+  padding-bottom: 5px;
+}
+.horario1 {
+  padding-top: 5px;
+}
+@media (max-width: 1450px) {
+  .parallax1 {
+    opacity: 1;
+    height: 70vw;
+  }
+  .parallax-layer1 {
+    width: 55%;
+  }
+}
+@media (max-width: 1100px) {
+  .parallax-layer1 {
+    width: 70%;
+  }
+  .lista-principal {
+    font-weight: 400;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .coroa img {
+    width: 120px;
+  }
+  .parallax1 {
+    height: 85vw;
+  }
+}
+
+@media (max-width: 868px) {
+  .parallax1 {
+    height: 120vw;
+  }
+  .parallax-layer1 {
+    width: 70%;
+  }
+  .container__precos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .lista-principal-tracado {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .lista-principal-tracado {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .parallax-layer1 {
+    width: 90%;
+  }
+}
+@media (max-width: 590px) {
+  .parallax-layer1 {
+    width: 90%;
+  }
+  .container__precos {
+    font-size: 20px;
+    width: 100%;
+  }
+  .parallax1 {
+    height: 160vw;
+  }
+  .title-main-container-price {
+    display: none;
+  }
+  .horario1 h1,
+  h2,
+  h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .parallax-layer1 {
+    width: 100%;
+  }
+  .container__precos {
+    font-size: 15px;
+    width: 100%;
+  }
+  .parallax1 {
+    height: 180vw;
+  }
+  .title-main-container-price {
+    display: none;
+  }
+  .horario1 h1,
+  h2,
+  h3 {
+    font-size: 14px;
+  }
+}

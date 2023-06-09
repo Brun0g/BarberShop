@@ -1,0 +1,118 @@
+.barbeiros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.barbeiros img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: contain;
+  background-color: none;
+}
+.barbeiros img:hover {
+  animation: scaleAnimation 3s infinite;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.main__containe1 {
+  width: 50%;
+  color: #fff;
+}
+.container-barber {
+  border: 10px solid black;
+  background-color: black;
+}
+
+.Title__main__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: wrap;
+}
+.type__service1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: white 1px 1px 20px 1px;
+  backdrop-filter: blur(20px);
+  background-color: hsla(51, 100%, 50%, 0.09);
+  border: 3px solid white;
+  margin-top: 20px;
+}
+.type__service1:hover {
+  background-color: #f5f5dc;
+  color: white;
+  cursor: pointer;
+  box-shadow: black 1px 1px 30px 10px;
+  transition: 1s ease-in;
+  transform: scale(1.1);
+  border: 5px solid black;
+  border-radius: 50px;
+}
+.type__service2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: white 1px 1px 20px 1px;
+  backdrop-filter: blur(20px);
+  background-color: hsla(51, 100%, 50%, 0.09);
+  border: 3px solid white;
+  margin-top: 20px;
+  padding: 2rem;
+}
+.type__service2:hover {
+  background-color: #f5f5dc;
+  color: white;
+  cursor: pointer;
+  box-shadow: black 1px 1px 30px 10px;
+  transition: 1s ease-in;
+  transform: scale(1.1);
+  border: 3px solid black;
+  border-radius: 50px;
+}
+.crown-barber-logo-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.crown-barber-logo {
+  width: 4.5rem;
+}
+
+.describe__service {
+  display: flex;
+  padding: 1.25rem 1.25rem 2.5rem 1.25rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.bigode {
+  display: flex;
+  justify-content: center;
+  padding: 0.625rem;
+}
+@media screen and (max-width: 1200px) {
+  .main__containe1 {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__containe1 {
+    width: 100%;
+  }
+}

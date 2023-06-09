@@ -1,0 +1,22 @@
+.coroa {
+  display: flex;
+  justify-content: center;
+}
+.coroa img {
+  width: 150px;
+}
+.container__title {
+  background-color: #fcf9f5;
+  color: black;
+  padding-top: 75px;
+}
+
+#servicos {
+  background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .Title__main__container {
+    font-size: 1.7rem;
+  }
+}

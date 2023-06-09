@@ -1,0 +1,60 @@
+.main__container__msg {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  box-shadow: #222227 1px 1px 15px 15px;
+  position: relative;
+}
+
+.form__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.form__container iframe {
+  margin-top: 20px;
+  box-shadow: white 1px 1px 20px 1px;
+  border: 3px solid white;
+}
+.form {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.form_input {
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.agendar__horario_title {
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  color: #f2c300;
+}
+.form_text_send {
+  height: 10rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1068px) {
+  .image img {
+    display: none;
+  }
+}
+@media screen and (max-width: 868px) {
+  .form_input {
+    padding: 15px;
+    margin-top: 20px;
+
+    display: flex;
+  }
+}

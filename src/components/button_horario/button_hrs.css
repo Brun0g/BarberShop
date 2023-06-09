@@ -1,0 +1,15 @@
+.button-primary {
+  color: black;
+  padding: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #f2c300;
+}
+
+.button-primary:hover {
+  background: #fff;
+  transition: 1s ease-in-out;
+  color: black;
+}

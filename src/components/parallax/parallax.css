@@ -1,0 +1,142 @@
+.parallax {
+  background: url("../../assets/img/1111.png") center / cover no-repeat fixed;
+  display: flex;
+  height: 51.5vw;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+  width: 100%;
+}
+.wp-main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
+.wp {
+  width: 32px;
+  height: 32px;
+}
+.wp-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+
+  font-size: 20px;
+}
+.parallax-layer {
+  backdrop-filter: blur(5px);
+  background-color: transparent;
+  border: 3px solid white;
+  box-shadow: white 1px 1px 30px 5px;
+  color: #f5f5dc;
+  left: 50%;
+  margin-top: 50px;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+.parallax-layer p {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+@font-face {
+  font-family: "Top_Secret";
+  src: url("../../assets/fonts/Top_Secret.ttf") format("truetype");
+}
+.description-parallax {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.button-padding-parallax {
+  padding: 25px;
+}
+@media (max-width: 1250px) {
+  .parallax {
+    opacity: 1;
+    height: 80vw;
+  }
+  .parallax-layer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 868px) {
+  .parallax {
+    height: 100vw;
+  }
+  .parallax-layer {
+    width: 85%;
+  }
+  .parallax-layer h2 {
+    font-size: 3rem;
+    font-family: "Top_Secret", sans-serif;
+  }
+  .parallax-layer p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 680px) {
+  .parallax {
+    height: 120vw;
+  }
+  .parallax-layer {
+    width: 90%;
+  }
+  .parallax-layer h2 {
+    font-size: 3rem;
+    font-family: "Top_Secret", sans-serif;
+  }
+  .parallax-layer p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .parallax-layer {
+    width: 90%;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: white 1px 1px 20px 2px;
+  }
+  .parallax {
+    height: 140vw;
+  }
+  .parallax-layer h2 {
+    font-size: 2.3rem;
+    font-family: "Top_Secret", sans-serif;
+  }
+  .parallax-layer p {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 420px) {
+  .parallax-layer {
+    width: 95%;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: white 1px 1px 20px 2px;
+  }
+
+  .parallax {
+    height: 150vw;
+  }
+  .parallax-layer h2 {
+    font-size: 1.5rem;
+  }
+  .parallax-layer p {
+    display: none;
+  }
+  .wp {
+    display: none;
+  }
+}

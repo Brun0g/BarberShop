@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  text-align: center;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #f2c300;
+  transition: ease-out 1s;
+}
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #222227;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.container-serv-app {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+#barbeiros {
+  background-image: url("../src/assets/img/barber.png") cover no-repeat;
+}
+@font-face {
+  font-family: "vanilla_whale";
+  src: url("../../assets/fonts/vanilla_whale.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Top_Secret";
+  src: url("../../assets/fonts/Top_Secret.ttf") format("truetype");
+}
+@font-face {
+  font-family: "VintageKing";
+  src: url("../../assets/fonts/VintageKing.ttf") format("truetype");
+}
+
+/* Estilos padrão para todas as telas */
+section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: black;
+}
+
+/* Estilos para telas médias e maiores */
+@media (max-width: 1024px) {
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+/* Estilos para telas de tablet */
+@media (max-width: 768px) {
+  section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
+
+/* Estilos para telas de smartphones */
+@media (max-width: 480px) {
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
