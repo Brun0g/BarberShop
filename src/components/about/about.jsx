@@ -8,10 +8,10 @@ const about = () => {
         <div className="description-about">
           <div className="texto-about">
             <div className="galeria">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <div className="galeria-div"></div>
+              <div className="galeria-div"></div>
+              <div className="galeria-div"></div>
+              <div className="galeria-div"></div>
             </div>
             <p>
               A Barbearia Império do Corte começou em 2019, quando dois amigos decidiram abrir uma barbearia. Eles se dedicaram ao aprendizado do ofício e conquistaram clientes oferecendo serviços de qualidade. Ao longo dos anos, expandiram e
@@ -24,10 +24,10 @@ const about = () => {
               </div>
             </p>
             <div className="galeria">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <div className="galeria2-div"></div>
+              <div className="galeria2-div"></div>
+              <div className="galeria2-div"></div>
+              <div className="galeria2-div"></div>
             </div>
           </div>
         </div>

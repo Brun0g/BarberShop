@@ -99,16 +99,38 @@
   width: 30%;
 }
 .galeria > div {
-  background-image: url("../../assets/img/ituano.jpg");
   flex: 1;
   border-radius: 1rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 100%;
-
+  background-size: cover;
   transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
   box-shadow: white 1px 1px 10px 1px;
   border: 1px solid white;
+}
+.galeria-div:nth-child(1) {
+  background-image: url("../../assets/img/ituano.jpg");
+}
+.galeria-div:nth-child(2) {
+  background-image: url("../../assets/img/1.jpg");
+}
+.galeria-div:nth-child(3) {
+  background-image: url("../../assets/img/9.jpg");
+}
+.galeria-div:nth-child(4) {
+  background-image: url("../../assets/img/3.jpg");
+}
+.galeria2-div:nth-child(1) {
+  background-image: url("../../assets/img/7.jpg");
+}
+.galeria2-div:nth-child(2) {
+  background-image: url("../../assets/img/5.jpg");
+}
+.galeria2-div:nth-child(3) {
+  background-image: url("../../assets/img/6.jpg");
+}
+.galeria2-div:nth-child(4) {
+  background-image: url("../../assets/img/10.jpg");
 }
 .galeria > div:hover {
   flex: 5;
