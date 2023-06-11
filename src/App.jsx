@@ -7,9 +7,9 @@ import Paralaxe from "./components/parallax/parallax";
 import ScrollToTopButton from "./components/button_scrol_0/button-scroll";
 import Sobre from "./components/about/about";
 import Barbeiros from "./components/barbeiros/barbeiros";
-import beard from "../../design_site/src/assets/img/beard.png";
-import hair from "../../design_site/src/assets/img/hair.png";
-import man from "../../design_site/src/assets/img/man.png";
+import beard from "./assets/img/beard.png";
+import hair from "./assets/img/hair.png";
+import man from "./assets/img/man.png";
 
 import "./components/title_logo/title.css";
 const App = () => {
