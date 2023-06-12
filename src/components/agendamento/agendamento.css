@@ -2,7 +2,6 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-
   box-shadow: #222227 1px 1px 15px 15px;
   position: relative;
 }
@@ -36,7 +35,7 @@
   font-size: 42px;
   font-family: "Times New Roman", Times, serif;
   font-weight: lighter;
-  color: #f2c300;
+  color: #E8D758;
 }
 .form_text_send {
   height: 10rem;

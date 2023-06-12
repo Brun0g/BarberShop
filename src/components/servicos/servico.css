@@ -1,9 +1,9 @@
 .type-service {
   margin: 0 auto;
-  box-shadow: white 1px 1px 20px 1px;
+  box-shadow: rgb(10, 10, 10) 1px 1px 20px 1px;
   backdrop-filter: blur(20px);
-  background-color: hsla(51, 100%, 50%, 0.09);
-  border: 3px solid white;
+  background-color: #968974;
+  border: 3px solid #E8D758;
   color: white;
 }
 .type-service:hover {

@@ -24,6 +24,7 @@
 .texto-about p {
   width: 30%;
   text-align: justify;
+  font-size: 20px;
 }
 .texto-about img {
   width: 30%;
@@ -40,10 +41,11 @@
   cursor: pointer;
   font-size: 15px;
   background-color: #f5f5dc;
+  border: none;
 }
 
 .button-primary3:hover {
-  background: #f2c300;
+  background: #E8D758;
   transition: 1s ease-in-out;
 }
 .container-button-about {
@@ -105,8 +107,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
-  box-shadow: white 1px 1px 10px 1px;
-  border: 1px solid white;
+  box-shadow: rgb(49, 49, 49) 1px 1px 10px 1px;
+  border: 1px solid 968974;
 }
 .galeria-div:nth-child(1) {
   background-image: url("../../assets/img/ituano.jpg");
