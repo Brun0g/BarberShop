@@ -4,8 +4,8 @@
 
 .footer {
   background-color: #000;
-  border-top: 1px solid white;
-  box-shadow: 1px 1px 15px 5px;
+  border-top: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 15px 5px rgb(12, 12, 12);
 }
 
 .footer-content {
@@ -24,8 +24,8 @@
   margin-bottom: 2rem;
 }
 .footer-links iframe {
-  border: 5px solid white;
-  box-shadow: 1px 1px 15px 5px;
+  border: 5px solid #E8D758;
+  box-shadow: 1px 1px 15px 5px #252525;
 }
 
 .content .logo {
@@ -94,7 +94,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #9e8a78;
+  background-color: #968974;
   border: none;
   font-weight: 600;
   color: #fff;

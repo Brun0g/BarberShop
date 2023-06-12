@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "./components/title_logo/title";
 import Servico from "./components/servicos/servico";
 import Footer from "./components/Footer/Footer";
@@ -37,8 +36,16 @@ const App = () => {
           slogan="
 Uma barba de respeito é um símbolo de masculinidade e estilo, que exala confiança e cuidado pessoal. É uma expressão única de individualidade e autenticidade."
         />
-        <Servico imagem={hair} name="Estilo" slogan="Com cortes e penteados cuidadosamente selecionados, o homem com estilo transmite uma mensagem de confiança e sofisticação." />
-        <Servico imagem={man} name="Confiança" slogan="A associação entre respeito, estilo e confiança é a chave para uma presença impactante e inspiradora" />
+        <Servico
+          imagem={hair}
+          name="Estilo"
+          slogan="Com cortes e penteados cuidadosamente selecionados, o homem com estilo transmite uma mensagem de confiança e sofisticação."
+        />
+        <Servico
+          imagem={man}
+          name="Confiança"
+          slogan="A associação entre respeito, estilo e confiança é a chave para uma presença impactante e inspiradora"
+        />
       </div>
       <Lista_precos />
       <Footer />

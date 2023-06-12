@@ -16,7 +16,7 @@
   width: 100px;
 }
 .preco-color {
-  color: gold;
+  color: #E8D758;
 }
 .parallax1 {
   height: 50vw;
@@ -37,9 +37,9 @@
   text-align: center;
   background-color: transparent;
   backdrop-filter: blur(20px);
-  background-color: hsla(51, 100%, 50%, 0.09);
-  box-shadow: white 1px 1px 20px 2px;
-  border: 3px solid white;
+  background-color: hsla(37, 14%, 52%, 0.438);
+  box-shadow: rgb(0, 0, 0) 1px 1px 20px 2px;
+  border: 3px solid #E8D758;
   color: #f5f5dc;
 }
 .container__title__precos {
